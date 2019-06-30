@@ -1,3 +1,8 @@
+/**
+ * Copyright (C)2019 All rights reserved.
+ * Author:    Pengfei.Zhou
+ * File Name: main.cpp
+ */
 #include "Sales_item.h"
 
 #include <iostream>
@@ -14,8 +19,8 @@ int main() {
       if (total.isbn() == trans.isbn()) {
         total += trans;
       } else {
-      	std::cout << total << std::endl;
-	return -1;
+        std::cout << total << std::endl;
+        return -1;
       }
     }
 

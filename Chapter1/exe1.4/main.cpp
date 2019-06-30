@@ -1,3 +1,8 @@
+/**
+ * Copyright (C)2019 All rights reserved.
+ * Author:    Pengfei.Zhou
+ * File Name: main.cpp
+ */
 #include <iostream>
 
 int main() {
@@ -9,7 +14,7 @@ int main() {
   std::cin >> v1 >> v2;
 
   std::cout << "The value of " << v1 << " * " \
-	    << v2 << " = " << v1 * v2 << std::endl;
+    << v2 << " = " << v1 * v2 << std::endl;
 
   return 0;
 }

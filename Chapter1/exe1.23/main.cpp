@@ -1,3 +1,8 @@
+/**
+ * Copyright (C)2019 All rights reserved.
+ * Author:    Pengfei.Zhou
+ * File Name: main.cpp
+ */
 #include "Sales_item.h"
 
 #include <iostream>
@@ -13,11 +18,11 @@ int main() {
 
     while (std::cin >> trans_2) {
       if (trans_1.isbn() == trans_2.isbn()) {
-        ++counts;      
+        ++counts;
       } else {
         std::cout << counts << std::endl;
-	counts = 1;
-	trans_1 = trans_2;
+        counts = 1;
+        trans_1 = trans_2;
       }
     }
   } else {

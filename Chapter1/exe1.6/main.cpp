@@ -1,3 +1,8 @@
+/**
+ * Copyright (C)2019 All rights reserved.
+ * Author:    Pengfei.Zhou
+ * File Name: main.cpp
+ */
 #include <iostream>
 
 int main() {
@@ -9,8 +14,8 @@ int main() {
   std::cin >> v1 >> v2;
 
   std::cout << "The sum of " << v1 \
-	    << " and " << v2
-	    << " is " << v1 + v2 << std::endl;
+    << " and " << v2
+    << " is " << v1 + v2 << std::endl;
 
   return 0;
 }

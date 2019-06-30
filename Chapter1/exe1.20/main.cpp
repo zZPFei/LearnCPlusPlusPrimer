@@ -1,3 +1,8 @@
+/**
+ * Copyright (C)2019 All rights reserved.
+ * Author:    Pengfei.Zhou
+ * File Name: main.cpp
+ */
 #include "Sales_item.h"
 
 #include <iostream>
